@@ -36,7 +36,7 @@ module SpreeGateway
         app.config.spree.payment_methods << Spree::Gateway::PayflowPro
         app.config.spree.payment_methods << Spree::Gateway::SecurePayAU
         app.config.spree.payment_methods << Spree::Gateway::Maxipago
-    end
+        app.config.spree.payment_methods << Spree::Gateway::Ccavenue
   end
-
+ end
 end
